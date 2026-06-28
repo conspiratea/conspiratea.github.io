@@ -1,0 +1,173 @@
+/*-------------- Whole Website edits*/
+body 
+{
+  margin: 0px;
+  padding: 0px;
+}
+    
+p 
+{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/*-------------- Universal DIVS*/
+
+/*Header Divs gruogh*/
+
+.divHeader 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #891111;
+  width: 100%;
+  position: fixed;
+}
+
+.divHeaderGapBetween
+{
+  height: 10rem;
+}
+
+/*Footer Divs gruogh*/
+.divFooter
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #891111;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.divFooterPrimaryContainer
+{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  flex: 0 1 42em;
+  padding-right: 16px;
+  padding-left: 16px;
+  gap: 8px;
+}
+
+.divFooterSecondaryContainer
+{
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.divFooterTitle
+{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 1em;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 700;
+  color: white;
+  font-style: normal;
+  font-size: 18px;
+  align-self: center;
+}
+
+.divFooterLinkContainer
+{
+  border-left: white solid 2px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+  padding-left: 1em;
+  align-self: center;
+}
+
+a.divFooterLinks 
+{
+  text-decoration: none;
+}
+
+.divFooterLinks
+{
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  width: 22ch;
+}
+
+.divFooterLinks:hover
+{
+  text-decoration: underline;
+}
+
+.divFooterGapBetween
+{
+    height: 2rem;
+}
+
+
+/* Fonts */
+.inknut-antiqua-light {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-medium {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inknut-antiqua-bold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inknut-antiqua-black {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-slab-standard {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-slab-bold {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
