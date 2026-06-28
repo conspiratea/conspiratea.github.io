@@ -1,0 +1,81 @@
+/*-------------- Divs*/
+
+.divMainPage
+{
+    display: flex;
+    flex-direction: column  ;
+    height: auto;  
+    width: 90%;
+    margin-left: 5%;
+    gap: 2em;
+}
+
+.divArticles
+{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+a.divArticlesContent {
+  text-decoration: none;
+  color: black;
+}
+
+.pArticleTitle:hover {
+    text-decoration: underline;
+    z-index: 2;
+}
+
+.divArticlesContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    flex: 0 1 35em;
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+.divArticlesImage
+{
+    flex: 0 1 14em;
+    aspect-ratio: 3 / 2;
+    cursor: pointer;
+}
+
+.imgArticlesContent
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pArticleTitle
+{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pArticleSummary
+{
+    font-size: 12px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 3px;
+}
+
+.pArticleDate
+{
+    font-size: 10px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: -2px;
+}
